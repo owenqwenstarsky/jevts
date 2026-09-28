@@ -20,3 +20,7 @@ const result = await client.systemOne({
 ```
 
 `result.answers.department.choice` is inferred as `"billing" | "technical"`. Model output is validated strictly; malformed output raises a typed `JevtsError`.
+
+## Documentation
+
+See the [full documentation](docs/README.md) for installation, configuration, question and answer types, provider behavior, validation, retries, errors, model listing, and testing.
